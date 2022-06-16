@@ -1,14 +1,11 @@
-const userName=prompt("What is ur name?","");
-alert(`Hello ${userName}`);
-const userMood=prompt("How are you feeling today?","");
+const person = {
+    name: "Dima",
+    age: 15,
+    study: {
+        university: "SDU",
+        course: 2,
+        GOP: "IT"
+    }
+};
 
-alert(`Your mood is : ${userMood}`);
-
-const userOrientation=confirm("Are you gay ?");
-
-if(userOrientation==true){
-alert("You are pidor");
-}else {
-    alert("You are also gay");
-}
-
+console.log(person.study["course"]);
