@@ -1,12 +1,5 @@
-let person = {
-    name: "Dilmurat",
-    age: 15,
-    study: {
-        isMarrie: false,
-        Sex:true
-    }
-};
-
-console.log(person.study.Sex);
+for (let i = 0; i <10 ; i++) {
+    console.log("git is working")
+}
 
 
