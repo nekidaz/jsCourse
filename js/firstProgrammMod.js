@@ -15,8 +15,15 @@ for (;;) {
         break;
     }
 };
-if(personalMovie08.movies["count"]<10){
-    alert
+if(personalMovie08.count<10){
+    alert("Мало фильмов");
+}else if (10<personalMovie08.count<20){
+    alert("Средняк");
+}else if(personalMovie08.count>50){
+    alert("Киноман");
+}else {
+    alert("error");
 }
+console.log(personalMovie08);
 
 
